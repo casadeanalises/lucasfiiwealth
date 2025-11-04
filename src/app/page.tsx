@@ -6,6 +6,7 @@ import About from "@/components/About";
 import Benefits from "@/components/Benefits";
 import Stats from "@/components/Stats";
 import Services from "@/components/Services";
+import ConsultationForm from "@/components/ConsultationForm";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 
@@ -18,6 +19,7 @@ export default function HomePage() {
       <Benefits />
       {/* <Stats />  TODO! */}
       <Services />
+      <ConsultationForm />
       <CTA />
       <Footer />
     </div>

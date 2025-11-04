@@ -34,6 +34,9 @@ const Navbar = () => {
             <a href="#diferenciais" className="text-foreground hover:text-primary transition-colors">
               Diferenciais
             </a>
+            <a href="#consultoria" className="text-foreground hover:text-primary transition-colors">
+              Consultoria
+            </a>
             <a href="#contato" className="text-foreground hover:text-primary transition-colors">
               Contato
             </a>
