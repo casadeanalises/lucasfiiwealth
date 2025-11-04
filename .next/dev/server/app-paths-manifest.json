@@ -1,3 +1,4 @@
 {
+  "/api/send-contact-email/route": "app/api/send-contact-email/route.js",
   "/page": "app/page.js"
 }

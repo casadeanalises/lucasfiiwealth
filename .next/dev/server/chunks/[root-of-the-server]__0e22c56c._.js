@@ -74,7 +74,7 @@ async function POST(req) {
         console.log(`Nome: ${name}, Email: ${email}`);
         // Enviar email via Resend
         const emailResponse = await resend.emails.send({
-            from: 'lucasfiiresearch@lucasfiiresearch.com.br',
+            from: 'Lucas FII Wealth <contato@lucasfiiresearch.com.br>',
             to: [
                 'lucasfiiresearch@gmail.com'
             ],
