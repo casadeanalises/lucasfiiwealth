@@ -38,7 +38,7 @@ const Navbar = () => {
             {/* <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-lg">W</span>
             </div> */}
-            <span className="text-xl font-bold text-foreground">LUCAS FII WEALTH</span>
+            <span className="text-xl font-bold text-foreground">LUCAS FII <span style={{ color: '#00bfff' }}>WEALTH</span></span>
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
