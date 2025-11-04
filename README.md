@@ -167,9 +167,12 @@ O projeto está preparado para deploy em plataformas como:
 - **Railway**
 - **DigitalOcean App Platform**
 
+## 📄 Licença
+
+© 2025 Lucas FII Wealth. Todos os direitos reservados.
+
 ---
 
 <div align="center">
-  <p>Desenvolvido com ❤️ para <strong>Lucas FII Wealth</strong></p>
-  <p>© 2024 - Consultoria Financeira Especializada</p>
+  <p>Desenvolvido por <strong>devrocha</strong> para <strong>Lucas FII Wealth</strong></p>
 </div>
