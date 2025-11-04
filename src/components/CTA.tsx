@@ -20,7 +20,7 @@ const CTA = () => {
               <div className="pt-4">
                 <ContactDialog>
                   <Button variant="hero" size="lg" className="group">
-                    Agendar consulta
+                    Entre em Contato
                     <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
                   </Button>
                 </ContactDialog>

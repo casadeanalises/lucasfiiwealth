@@ -68,20 +68,13 @@ const ConsultationForm = () => {
   };
 
   return (
-    <section className="relative py-24 overflow-hidden" id="consultoria">
-      <div 
-        className="absolute inset-0 z-0"
-        style={{
-          backgroundImage: "url('/hero-wealth.jpg')",
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat'
-        }}
-      >
-        <div className="absolute inset-0 bg-slate-900/85" />
-      </div>
+    <section 
+      className="relative py-24 overflow-hidden" 
+      id="consultoria"
+      style={{ backgroundColor: '#0b121a' }}
+    >
       
-      <div className="container mx-auto px-4 relative z-10">
+      <div className="container mx-auto px-4 relative">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left side - Content */}
           <div className="space-y-8">

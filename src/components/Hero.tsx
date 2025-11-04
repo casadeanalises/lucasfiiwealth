@@ -37,14 +37,14 @@ const Hero = () => {
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
             </ContactDialog>
-            <Button 
+            {/* <Button 
               variant="outline" 
               size="lg" 
               className="border-primary/30 hover:border-primary"
               onClick={() => document.getElementById('sobre')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Saiba mais
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>

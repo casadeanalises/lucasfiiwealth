@@ -15,11 +15,11 @@ export default function HomePage() {
     <div className="min-h-screen">
       <Navbar />
       <Hero />
-      <About />
-      <Benefits />
-      {/* <Stats />  TODO! */}
-      <Services />
       <ConsultationForm />
+      <Services />
+      <Benefits />
+      <About />
+      {/* <Stats />  TODO! */}
       <CTA />
       <Footer />
     </div>
