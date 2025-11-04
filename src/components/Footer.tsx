@@ -48,8 +48,8 @@ const Footer = () => {
            <div>
             <h3 className="font-semibold mb-4 text-foreground">Grupo Lucas FII</h3>
             <ul className="space-y-2 text-muted-foreground">
-              <li><a href="https://www.lucasfiiresearch.com.br" className="hover:text-primary transition-colors">Lucas FII Research</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Canal Lucas FII</a></li>
+              <li><a href="https://www.lucasfiiresearch.com.br" className="hover:text-primary transition-colors" target="_blank" rel="noopener noreferrer">Lucas FII Research</a></li>
+              <li><a href="https://www.youtube.com/@lucasfiis" className="hover:text-primary transition-colors" target="_blank" rel="noopener noreferrer">Canal Lucas FII</a></li>
             </ul>
           </div>
 
