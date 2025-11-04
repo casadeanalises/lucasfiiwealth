@@ -1,34 +1,12 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
-import { Menu, LogOut, User } from "lucide-react";
-import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
-import { supabase } from "@/integrations/supabase/client";
-import { toast } from "sonner";
+import { Menu } from "lucide-react";
+import { useState } from "react";
 import ContactDialog from "./ContactDialog";
-import type { User as SupabaseUser } from "@supabase/supabase-js";
 
 const Navbar = () => {
-  const navigate = useNavigate();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [user, setUser] = useState<SupabaseUser | null>(null);
-
-  useEffect(() => {
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
-      setUser(session?.user ?? null);
-    });
-
-    supabase.auth.getSession().then(({ data: { session } }) => {
-      setUser(session?.user ?? null);
-    });
-
-    return () => subscription.unsubscribe();
-  }, []);
-
-  const handleLogout = async () => {
-    await supabase.auth.signOut();
-    toast.success("Logout realizado com sucesso!");
-    navigate("/");
-  };
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
@@ -67,28 +45,6 @@ const Navbar = () => {
                 Fale Conosco
               </Button>
             </ContactDialog>
-
-            {/* {user ? (
-              <Button
-                variant="ghost"
-                size="lg"
-                onClick={handleLogout}
-                className="flex items-center gap-2"
-              >
-                <LogOut size={18} />
-                <span>Sair</span>
-              </Button>
-            ) : (
-              <Button
-                variant="outline"
-                size="lg"
-                onClick={() => navigate("/auth")}
-                className="flex items-center gap-2 border-primary/30 hover:border-primary"
-              >
-                <User size={18} />
-                <span>Entrar</span>
-              </Button>
-            )} */}
           </div>
 
           <button
@@ -119,28 +75,6 @@ const Navbar = () => {
                 Fale Conosco
               </Button>
             </ContactDialog>
-
-            {/* {user ? (
-              <Button
-                variant="ghost"
-                size="lg"
-                onClick={handleLogout}
-                className="w-full flex items-center justify-center space-x-2"
-              >
-                <LogOut size={18} />
-                <span>Sair</span>
-              </Button>
-            ) : (
-              <Button
-                variant="outline"
-                size="lg"
-                onClick={() => navigate("/auth")}
-                className="w-full flex items-center justify-center space-x-2"
-              >
-                <User size={18} />
-                <span>Entrar</span>
-              </Button>
-            )} */}
           </div>
         )}
       </div>

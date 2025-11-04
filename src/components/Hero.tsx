@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import heroImage from "@/assets/hero-wealth.jpg";
 import ContactDialog from "./ContactDialog";
 
 const Hero = () => {
@@ -9,11 +8,13 @@ const Hero = () => {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: `linear-gradient(135deg, rgba(14, 23, 40, 0.95) 0%, rgba(14, 23, 40, 0.85) 100%), url(${heroImage})`,
+          backgroundImage: "url('/hero-wealth.jpg')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
         }}
       >
+        <div className="absolute inset-0 bg-slate-900/80" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(0,191,255,0.1),transparent_50%)]" />
       </div>
       

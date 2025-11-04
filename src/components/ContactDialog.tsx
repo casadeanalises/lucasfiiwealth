@@ -1,10 +1,11 @@
+"use client";
+
 import { useState } from "react";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { supabase } from "@/integrations/supabase/client";
 import { toast } from "sonner";
 import { z } from "zod";
 import { Send } from "lucide-react";
@@ -37,11 +38,19 @@ const ContactDialog = ({ children }: ContactDialogProps) => {
     try {
       const validatedData = contactSchema.parse(formData);
 
-      const { error } = await supabase.functions.invoke("send-contact-email", {
-        body: validatedData,
+      const response = await fetch('/api/send-contact-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(validatedData),
       });
 
-      if (error) throw error;
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Erro ao enviar mensagem');
+      }
 
       toast.success("Mensagem enviada com sucesso! Entraremos em contato em breve.");
       setFormData({ name: "", email: "", phone: "", message: "" });

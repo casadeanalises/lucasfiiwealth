@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import advisoryImage from "@/assets/advisory-team.jpg";
+import Image from "next/image";
 import ContactDialog from "./ContactDialog";
 
 const CTA = () => {
@@ -29,10 +29,12 @@ const CTA = () => {
 
             <div className="relative animate-fade-in-up">
               <div className="absolute inset-0 bg-primary/20 rounded-2xl blur-3xl" />
-              <img 
-                src={advisoryImage} 
-                alt="Equipe de consultoria" 
-                className="relative rounded-2xl shadow-2xl border border-border"
+              <Image 
+                src="https://vangardi.com.br/wp-content/uploads/2021/07/tipos-investimentos-crescimento.jpg"
+                alt="Tipos de investimentos para crescimento" 
+                width={600}
+                height={400}
+                className="relative rounded-2xl shadow-2xl border border-border object-cover"
               />
             </div>
           </div>

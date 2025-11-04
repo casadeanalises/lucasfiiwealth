@@ -1,0 +1,23 @@
+1:"$Sreact.fragment"
+2:I[76987,["/_next/static/chunks/29a0ca61c9a37cc1.js","/_next/static/chunks/5fd496139a3cc511.js"],"default"]
+3:I[86336,["/_next/static/chunks/29a0ca61c9a37cc1.js","/_next/static/chunks/5fd496139a3cc511.js"],"Provider"]
+4:I[77855,["/_next/static/chunks/29a0ca61c9a37cc1.js","/_next/static/chunks/5fd496139a3cc511.js"],"Toaster"]
+5:I[13354,["/_next/static/chunks/29a0ca61c9a37cc1.js","/_next/static/chunks/5fd496139a3cc511.js"],"Toaster"]
+6:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/b71c1cfea9076b4b.js"],"default"]
+7:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/b71c1cfea9076b4b.js"],"default"]
+8:I[22016,["/_next/static/chunks/29a0ca61c9a37cc1.js","/_next/static/chunks/5fd496139a3cc511.js","/_next/static/chunks/60ae254bd41208ce.js"],""]
+9:I[47257,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/b71c1cfea9076b4b.js"],"ClientPageRoot"]
+a:I[52683,["/_next/static/chunks/29a0ca61c9a37cc1.js","/_next/static/chunks/5fd496139a3cc511.js","/_next/static/chunks/4dcc933dcbfdb4cf.js","/_next/static/chunks/66670bc44274ef3e.js"],"default"]
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/b71c1cfea9076b4b.js"],"OutletBoundary"]
+e:"$Sreact.suspense"
+10:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/b71c1cfea9076b4b.js"],"ViewportBoundary"]
+12:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/b71c1cfea9076b4b.js"],"MetadataBoundary"]
+14:I[68027,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/b71c1cfea9076b4b.js"],"default"]
+:HL["/_next/static/chunks/eaf748c0efc0e663.css","style"]
+:HL["/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"uXBth25JiUxB2HTNgc5KA","c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/eaf748c0efc0e663.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/29a0ca61c9a37cc1.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/5fd496139a3cc511.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"pt-BR","children":["$","body",null,{"className":"inter_5972bc34-module__OU16Qa__className","children":["$","$L2",null,{"children":["$","$L3",null,{"children":[["$","$L4",null,{}],["$","$L5",null,{}],["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"min-h-screen flex items-center justify-center bg-background","children":["$","div",null,{"className":"text-center","children":[["$","h1",null,{"className":"text-6xl font-bold text-primary","children":"404"}],["$","h2",null,{"className":"text-2xl font-semibold text-foreground mt-4","children":"Página não encontrada"}],["$","p",null,{"className":"text-muted-foreground mt-2","children":"A página que você está procurando não existe."}],["$","$L8",null,{"href":"/","className":"inline-block mt-6 px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors","children":"Voltar ao início"}]]}]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}]}]}]}]]}],{"children":[["$","$1","c",{"children":[["$","$L9",null,{"Component":"$a","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@b","$@c"]}}],[["$","script","script-0",{"src":"/_next/static/chunks/4dcc933dcbfdb4cf.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/66670bc44274ef3e.js","async":true,"nonce":"$undefined"}]],["$","$Ld",null,{"children":["$","$e",null,{"name":"Next.MetadataOutlet","children":"$@f"}]}]]}],{},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L10",null,{"children":"$@11"}],["$","div",null,{"hidden":true,"children":["$","$L12",null,{"children":["$","$e",null,{"name":"Next.Metadata","children":"$@13"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$14",[]],"s":false,"S":true}
+b:{}
+c:"$0:f:0:1:1:children:0:props:children:0:props:serverProvidedParams:params"
+11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:[["$","title","0",{"children":"Lucas FII Wealth"}],["$","meta","1",{"name":"description","content":"Gestão de patrimônio personalizada e independente"}]]
+f:null
