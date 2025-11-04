@@ -13,17 +13,17 @@ const Footer = () => {
               <span className="text-xl font-bold">LUCAS FII WEALTH</span>
             </div>
             <p className="text-muted-foreground">
-              Gestão de patrimônio personalizada e independente.
+              Gestão de patrimônios.
             </p>
              <ul className="space-y-3 text-muted-foreground">
               <li className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-primary" />
-                <span>contato@lucasfiiwealth.com.br</span>
+                <span>lucasfiiresearch@gmail.com</span>
               </li>
-              <li className="flex items-center space-x-2">
+              {/* <li className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-primary" />
                 <span>(11) 3000-0000</span>
-              </li>
+              </li> */}
               </ul>
           </div>
 
@@ -82,6 +82,9 @@ const Footer = () => {
 
         <div className="border-t border-border pt-8 text-center text-muted-foreground">
           <p>&copy; 2025 Lucas FII Wealth. Todos os direitos reservados.</p>
+          <div className="mt-2 text-sm opacity-75">
+            <p>Site v1.0.0 • Desenvolvido por <a href="https://www.devrocha.com.br" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors underline">DevRocha</a></p>
+          </div>
         </div>
       </div>
     </footer>
